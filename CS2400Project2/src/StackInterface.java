@@ -8,7 +8,7 @@ public interface StackInterface<T>
 {
    /** Adds a new entry to the top of this stack.
        @param nextCharacter  An object to be added to the stack. */
-   public void push(char nextCharacter);
+   public void push(T nextCharacter);
   
    /** Removes and returns this stack's top entry.
        @return  The object at the top of the stack. 
