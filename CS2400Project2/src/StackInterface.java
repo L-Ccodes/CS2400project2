@@ -1,9 +1,4 @@
-/**
-   An interface for the ADT stack.
-   @author Frank M. Carrano
-   @author Timothy M. Henry
-   @version 5.0
-*/
+
 public interface StackInterface<T>
 {
    /** Adds a new entry to the top of this stack.
@@ -26,4 +21,5 @@ public interface StackInterface<T>
   
    /** Removes all entries from this stack. */
    public void clear();
+
 } // end StackInterface
