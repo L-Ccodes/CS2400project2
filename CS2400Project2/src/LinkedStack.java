@@ -1,7 +1,6 @@
 import java.util.EmptyStackException;
 
-/** 
- * @author Christian Williams
+/** Class created to create a stack
  *
  * @param <T> is a generic data type. The user can choose the data type that
  * will be used.
@@ -91,7 +90,7 @@ public final class LinkedStack<T> implements StackInterface<T>
 	
 
 	/** Class used to create and deal with nodes.
-	 * @author Christian Williams
+	 * 
 	 */
 	private class Node
 	{

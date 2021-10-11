@@ -74,7 +74,9 @@ public static String convertToPostfix(String infix) {
 				counter--;
 				break;
 			default: //if the character is a variable.
-				postfix = postfix + nextCharacter;
+				if(Character.isLetter(nextCharacter)) {
+					postfix = postfix + nextCharacter;
+				}
 				counter--;
 				n++;
 				break;
