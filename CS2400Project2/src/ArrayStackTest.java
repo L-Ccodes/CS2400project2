@@ -10,10 +10,12 @@ public class ArrayStackTest {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String postfix;
-		System.out.println("Enter postfix expression: ");
-		postfix = scan.nextLine();
-
-		System.out.println(evaluatePostfix(postfix));
+		//System.out.println("Enter postfix expression: ");
+		//postfix = scan.nextLine();
+		
+		postfix = "23*42-/56*+";
+		System.out.println("Postfix Expression: 23*42-/56*+");
+		System.out.println("Result: " + evaluatePostfix(postfix));
 		scan.close();
 	}
 	
