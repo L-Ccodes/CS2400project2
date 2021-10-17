@@ -15,10 +15,10 @@ public class convertToPostfixTest {
 	 */
 	public void test() {
 		// Is a string that will be used to check the method.
-		String output = LinkedStackTest.convertToPostfix("a+b-c");
+		String output = LinkedStackTest.convertToPostfix("a*b/(c-a)+d*e");
 		
 		//checks to see if the output equals what is expected.
-		assertEquals("ab+c-", output);	
+		assertEquals("ab*ca-/de*+", output);	
 					
 	}
 	
